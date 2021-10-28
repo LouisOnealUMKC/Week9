@@ -6,6 +6,7 @@ Assignments = []
 TestWeight = 0.6
 AssignmentWeight = 0.4
 
+
 def GradeMenu():
     selection = input("1 -Add Test\n2 -Remove Test\n3 -Clear Tests\n4 -Add Assignment\n5 -Remove Assignment\n6 -Clear Assignments\nD -Display Scores\nQ -Quit\n==> ").upper()
     print (selection)
