@@ -40,7 +40,7 @@ def AddTest():
     GradeMenu()
 
 def RemoveTest():
-    TestScore = input("Enter the Test to remove 0-100 ==> ")
+    TestScore = float(input("Enter the Test to remove 0-100 ==> "))
     if TestScore in TestScores:
         TestScores.remove(TestScore)
     elif TestScore not in TestScores:
@@ -57,7 +57,7 @@ def AddAssignment():
     GradeMenu()
 
 def RemoveAssignment():
-    Assignment = input("Enter the Assignment to remove 0-100 ==> ")
+    Assignment = float(input("Enter the Assignment to remove 0-100 ==> "))
     if Assignment in Assignments:
         Assignments.remove(Assignment)
     elif Assignment not in Assignments:
